@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Make sure to set PGID and PUID for permissions
+
 ./syn-TUN.sh
 
 docker run \
