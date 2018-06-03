@@ -332,6 +332,12 @@ corresponding nginx reverse proxy on an RPI machine.
 ## Make it work on Synology NAS
 Here are the steps to run it on a Synology NAS (Tested on DSM 6) :
 
+- You can also look at the following files that have been added to the project:
+    - syn-resolv.conf **Resolve config as stated below**
+    - syn-TUN.sh **Tunnel script as stated below**
+    - syn-initialize **docker run command like below**
+    - syn-startup.sh **script to run on startup inside the Synology**
+
 - Connect as _admin_ to your Synology SSH
 - Switch to root with command `sudo su -`
 - Enter your _admin_ password when prompted
